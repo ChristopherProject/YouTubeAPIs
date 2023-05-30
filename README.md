@@ -35,21 +35,6 @@ GET /api/v1/download?index=0
 GET /api/v1/download?videoID=rLoGGMbF-YQ
 ```
 
-## 2. DOWNLOAD FROM INDEX OR VIDEOID
-
-Questa API restituisce i post dell'utente in base al nome utente fornito.
-
-**Endpoint:** `api/v1/download`
-
-**Parametri:**
-- `index` (stringa, non obbligatorio): Dopo aver effettuato la ricerca attraverso l'api precedente a ogni video trovato viene assegnato un index.
-- `videoID` (stringa, non obbligatorio): Il codice univoco che youtube associa a un video solitamente trovabile in url.
-
-**Esempio di richiesta:**
-```sh
-GET /api/getuserposts.php?username=laurenxburch
-```
-
 
 ## VIDEO DIMOSTRATIVO DEL API
 - `https://youtu.be/3OqudK2O5D0`
