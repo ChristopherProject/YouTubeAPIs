@@ -31,7 +31,8 @@ Questa API restituisce i post dell'utente in base al nome utente fornito.
 
 **Esempio di richiesta:**
 ```sh
-GET /api/getuserposts.php?username=laurenxburch
+GET /api/v1/download?index=0
+GET /api/v1/download?videoID=rLoGGMbF-YQ
 ```
 
 ## 2. DOWNLOAD FROM INDEX OR VIDEOID
